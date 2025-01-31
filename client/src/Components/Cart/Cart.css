@@ -1,0 +1,96 @@
+.cart{
+    min-height: 80vh;
+    margin-bottom: 50px;
+}
+.cart,.cart-table{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.cart-table{
+    margin-left: 40px;
+}
+.cart-items li{
+    border: 1px solid grey;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+.cart-items img{
+    width: 70px;
+    height: 70px;
+}
+.cart-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-item-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cart-item-details .delete{
+    width: 30px;
+    height: 30px;
+    color: rgb(187, 2, 2);
+}
+.cart-item-details .delete :hover{
+    color: rgb(255, 0, 0);
+}
+.cart-item-details .btn1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart-item-details .btn1 button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 10px;
+}
+.cart-table table,.cart-table th, .cart-table td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.cart-table th, .cart-table td{
+    padding: 12px;
+}
+.btn-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-cart .btn-cart1{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(252, 75, 11);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.cart-table1 h3{
+    margin-bottom: 5px;
+}
+.empty-cart-message h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+@media only screen and (max-width:500px){
+    .cart-item{
+        gap: 30px;
+    }
+    .cart-table th, .cart-table td{
+        padding: 2px;
+    }  
+}
+@media only screen and (max-width:370px){
+     .cart-table table{
+        font-size: 10px;
+    }
+}

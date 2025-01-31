@@ -1,0 +1,83 @@
+.image-details{
+    margin-bottom: 50px;
+}
+.rupees{
+    margin-top: 20px;
+}
+.rupees svg{
+    font-size: 13px;
+}
+ .image-img{
+    display: flex;
+    justify-content: center;
+ }
+ .image-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+ .image-btn button{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+ }
+ .image-btn .img-btn1{
+    background-color: #ff6600;
+    color: white;
+ }
+ .image-details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.image-details2 p strong{
+    font-size: larger;
+}
+.image-details1,.image-details2{
+    width: 500px;
+}
+.image-details2{
+    border: 1px solid rgb(227, 227, 227);
+    padding: 15px;
+}
+.image-details2 table tr th,.image-details2 table tr td{
+    padding: 8px;
+    text-align: left;
+}
+.image-details2 table tr td{
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.image-img img{
+    width: 400px;
+    height: 500px;
+}
+.image-details1{
+    border: 1px solid rgb(227, 227, 227);
+    padding: 10px;
+}
+.image-type{
+    font-size: 30px;
+    font-weight: 700;
+}
+@media only screen and (max-width:530px){
+    .image-details1,.image-details2{
+        width: 95vw;
+    }
+    .image-img img{
+        width: 300px;
+        height: 400px;
+    }
+    .image-btn{
+        gap: 30px;
+    }
+    .image-type{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

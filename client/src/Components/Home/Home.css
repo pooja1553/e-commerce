@@ -1,0 +1,29 @@
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.card-content{
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(227, 227, 227);
+}
+.card-content img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.card-content figcaption,.card-content p{
+  
+    padding-left: 50px;
+}
+
+.home-img img{
+    width: 100vh;
+  
+}
+

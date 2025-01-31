@@ -1,0 +1,44 @@
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  height: 170px;
+}
+.footer .ft1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 50px;
+    padding-left: 20px;
+}
+.footer .ft1 .ft-li{
+  width: 250px;
+}
+.footer .ft1 li{
+  list-style-type: none;
+  line-height: 40px;
+}
+.footer .ft1 li p{
+  line-height: normal;
+}
+.footer .ft1 ul li{
+  line-height: 30px;
+}
+.ft-link{
+  color: white;
+  text-decoration: none;
+}
+.ft-ul{
+  padding: 0;
+}
+@media only screen and (max-width:550px){
+  .footer .ft1 {
+    flex-direction: column;
+  }
+  .footer .ft1 .ft-li{
+    width: 60vw;
+  }
+  .footer{
+    height: 570px;
+  }
+}
